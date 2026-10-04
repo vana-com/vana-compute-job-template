@@ -98,3 +98,4 @@ SELECT locale FROM results;
 4. Write the Compute Instruction on-chain to the ComputeInstructionRegistry smart contract via the `addComputeInstruction` function with both the publicly available image URL and the SHA256 image checksum.
 5. Notify the relevant DLP owner for Compute Instruction image audits and eventual approval with the DLP owner wallet through the `updateComputeInstruction` ComputeInstructionRegistry smart contract function.
 6. Approval can be checked and verified on-chain with the `isApproved` ComputeInstructionRegistry smart contract function.
+
